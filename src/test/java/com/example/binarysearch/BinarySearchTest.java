@@ -29,7 +29,7 @@ public class BinarySearchTest {
   }
 
   @Test
-  public void itShouldFindTargetInNonUniqueArray() {
+  public void itShouldFindTargetInNonUniqueArrayAndReturnIndexOfArbitraryMatchingValue() {
     assertEquals(1, binarySearch.searchTarget(new int[] {1, 3, 5}, 3));
     assertEquals(1, binarySearch.searchTarget(new int[] {1, 3, 3, 5}, 3));
     assertEquals(2, binarySearch.searchTarget(new int[] {1, 3, 5, 5, 5}, 5));
